@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install express@8.5.0' 
+                sh 'npm install' 
             }
         }
         stage('Test') {
