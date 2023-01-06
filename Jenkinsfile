@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install express@16.14.2' 
+                sh 'npm install' 
             }
         }
         stage('Test') {
